@@ -2,6 +2,9 @@ package com.monkey01.common.domain;
 
 
 
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableName;
+
 import java.io.Serializable;
 import java.util.Date;
 
@@ -11,9 +14,9 @@ import java.util.Date;
  * @created Date: 13:32 18/9/3.
  * @modify by:
  */
-//@TableName("sys_log")
+@TableName("sys_log")
 public class SysLogDO implements Serializable {
-//	@TableId
+	@TableId
 	private Long id;
 	//用户名
 	private String username;

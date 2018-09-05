@@ -88,7 +88,6 @@ public class SysLogAspect {
 		sysLog.setTime(time);
 		sysLog.setCreateDate(new Date());
 		//保存系统日志
-//		sysLogService.insert(sysLog);
 		sysLogService.saveSysLog(sysLog);
 	}
 }
