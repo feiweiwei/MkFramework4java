@@ -1,5 +1,6 @@
 package com.monkey01.common.domain;
 
+import com.monkey01.common.exception.ResultCode;
 import io.swagger.annotations.ApiModel;
 
 import java.util.HashMap;

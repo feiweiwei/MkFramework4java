@@ -1,4 +1,4 @@
-package com.monkey01.common.domain;
+package com.monkey01.common.exception;
 
 
 /**
