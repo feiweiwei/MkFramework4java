@@ -4,3 +4,8 @@ spring:
     username: root
     password: Fww198509!
     driverClassName: com.mysql.jdbc.Driver
+
+mk:
+  encrypt: true
+  encryptAlgo: des
+  key: 6B@5b7a8434
