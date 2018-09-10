@@ -29,12 +29,12 @@ public class GeneratorServiceEntity {
 
 	private void generateByTables(boolean serviceNameStartWithI, String packageName, String... tableNames) {
 		GlobalConfig config = new GlobalConfig();
-		String dbUrl = "jdbc:mysql://123.206.118.12:3306/mkframework";
+		String dbUrl = "jdbc:mysql://123.206.XXX.XXX:3306/mkframework";
 		DataSourceConfig dataSourceConfig = new DataSourceConfig();
 		dataSourceConfig.setDbType(DbType.MYSQL)
 				.setUrl(dbUrl)
 				.setUsername("root")
-				.setPassword("Fww198509!")
+				.setPassword("xxxxx!")
 				.setDriverName("com.mysql.jdbc.Driver");
 		StrategyConfig strategyConfig = new StrategyConfig();
 		strategyConfig

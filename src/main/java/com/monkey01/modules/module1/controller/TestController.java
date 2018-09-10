@@ -1,4 +1,4 @@
-package com.monkey01.modules.controller;
+package com.monkey01.modules.module1.controller;
 
 import com.monkey01.common.annotation.MkParams;
 import com.monkey01.common.annotation.SysLog;

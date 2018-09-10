@@ -30,11 +30,6 @@ public class DESTest {
 
 		SymmetricCrypto des = new SymmetricCrypto(SymmetricAlgorithm.DES, keyStr.getBytes());
 
-//		//加密
-//		byte[] encrypt = des.encrypt(content);
-//		//解密
-//		byte[] decrypt = des.decrypt(encrypt);
-
 		//加密为16进制表示
 		String encryptHex = des.encryptHex(content);
 		System.out.println("===" + encryptHex);

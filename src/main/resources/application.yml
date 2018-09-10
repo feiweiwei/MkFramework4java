@@ -11,9 +11,9 @@ server:
 
 
 spring:
-  # 环境 dev|test|prod
+  # 环境 local|dev|test|prod
   profiles:
-    active: dev
+    active: local
   # jackson时间格式化
   jackson:
     time-zone: GMT+8
@@ -83,3 +83,4 @@ mk:
     header: token
   # 系统日志输出，file表示只输出到日志文件，db表示输出到数据库日志表，all表示输出到文件和数据库
   sys-log: file
+
